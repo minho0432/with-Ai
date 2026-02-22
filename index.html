@@ -1,46 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>League of Legends</title>
+    <title>Partnership Inquiry</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#champions">Champions</a></li>
-                <li><a href="#gameplay">Gameplay</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div class="container">
+        <h1>League of Legends Partnership Inquiry</h1>
+        <p>If you are interested in a partnership, please fill out the form below.</p>
+        <form action="https://formspree.io/f/mbdazqnb" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
 
-    <main>
-        <section id="hero">
-            <h1>League of Legends</h1>
-        </section>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
 
-        <section id="about">
-            <h2>About the Game</h2>
-            <p>League of Legends is a team-based strategy game where two teams of five powerful champions face off to destroy the other's base. Choose from over 140 champions to make epic plays, secure kills, and take down towers as you battle your way to victory.</p>
-        </section>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
 
-        <section id="champions">
-            <h2>Champions</h2>
-            <div class="champion-grid">
-                </div>
-        </section>
-
-        <section id="gameplay">
-            <h2>Gameplay</h2>
-            <p>The main objective in League of Legends is to destroy the enemy team's Nexus, which is the heart of their base. To get there, you'll need to work with your team to clear waves of minions, destroy defensive towers, and defeat enemy champions.</p>
-        </section>
-    </main>
+            <button type="submit">Send</button>
+        </form>
+    </div>
 
     <footer>
-        <p>For more information, visit the <a href="https://www.leagueoflegends.com/">official League of Legends website</a>.</p>
+        <p>Created by Goryun Go, a sophomore in the Department of Computer Engineering at Hoseo University.</p>
     </footer>
 
     <script src="main.js"></script>
