@@ -1,14 +1,48 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hello World</title>
-  <link href='/style.css' rel='stylesheet'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>League of Legends</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Hello, world!</h1>
-  <button onclick="console.log('hello');">Press me</button>
-  <script defer type="text/javascript" src="/main.js"></script>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#champions">Champions</a></li>
+                <li><a href="#gameplay">Gameplay</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h1>League of Legends</h1>
+        </section>
+
+        <section id="about">
+            <h2>About the Game</h2>
+            <p>League of Legends is a team-based strategy game where two teams of five powerful champions face off to destroy the other's base. Choose from over 140 champions to make epic plays, secure kills, and take down towers as you battle your way to victory.</p>
+        </section>
+
+        <section id="champions">
+            <h2>Champions</h2>
+            <div class="champion-grid">
+                </div>
+        </section>
+
+        <section id="gameplay">
+            <h2>Gameplay</h2>
+            <p>The main objective in League of Legends is to destroy the enemy team's Nexus, which is the heart of their base. To get there, you'll need to work with your team to clear waves of minions, destroy defensive towers, and defeat enemy champions.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>For more information, visit the <a href="https://www.leagueoflegends.com/">official League of Legends website</a>.</p>
+    </footer>
+
+    <script src="main.js"></script>
 </body>
 </html>

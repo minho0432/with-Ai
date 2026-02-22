@@ -1,1 +1,102 @@
-/* Add styles here */
+body {
+    background-color: #0a192f;
+    color: #a8b2d1;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #0a192f;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: #64ffda;
+    font-size: 1.2rem;
+    margin: 0 1rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffeb3b;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+#hero {
+    background-image: url('https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt8979808f77378432/633423795322524d72852654/LoL_2022_keyart_16x9.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero h1 {
+    color: #fff;
+    font-size: 4rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    color: #64ffda;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.champion-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.champion-card {
+    background-color: #112240;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.champion-card:hover {
+    transform: translateY(-5px);
+}
+
+.champion-card img {
+    width: 100%;
+    height: auto;
+}
+
+.champion-card h3 {
+    color: #a8b2d1;
+    font-size: 1.2rem;
+    margin: 1rem;
+}
+
+footer {
+    background-color: #0a192f;
+    padding: 1rem;
+    text-align: center;
+}
+
+footer a {
+    color: #64ffda;
+}
