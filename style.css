@@ -18,10 +18,10 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     max-width: 500px;
     width: 90%;
-    margin-bottom: 2em; /* Add space between form and footer */
+    margin-bottom: 2em; /* Add space between containers */
 }
 
-h1 {
+h1, h2 {
     font-size: 1.8em;
     color: #0a2540;
     text-align: center;
@@ -74,10 +74,15 @@ button:hover {
     background-color: #0056b3;
 }
 
+#comments {
+    margin-top: 2em; /* Add space above the comments section */
+}
+
 footer {
     text-align: center;
     color: #777;
     font-size: 0.9em;
+    margin-top: 2em;
 }
 
 footer p {
